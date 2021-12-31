@@ -12,11 +12,13 @@ namespace StackAndQueue
             linkedListStack.Push(30);
             linkedListStack.Push(56);
             linkedListStack.Display();
-            linkedListStack.Pop();
-            linkedListStack.Display();
-            linkedListStack.Peek();
-            linkedListStack.Display();
-            
+
+            Queue linkedListQueue = new Queue();
+            linkedListQueue.Enqueue(56);
+            linkedListQueue.Enqueue(30);
+            linkedListQueue.Enqueue(70);
+            linkedListQueue.Display();
+
         }
     }
 }
