@@ -25,7 +25,39 @@ namespace StackAndQueue
             this.top = node;
             Console.WriteLine("{0} pushed to stack", value);
         }
- 
+
+        //Peek method gives the top most element in stack without removing the element.
+        public void Peek()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("No elements present in the stack");
+                return;
+            }
+            Console.WriteLine("The element after peeking is : " + this.top.data);
+        }
+        //Pop method-Removes the top most element
+        public void Pop()
+        {
+            if (this.top == null)
+            {
+                Console.WriteLine("No elements present in the stack");
+                return;
+            }
+            Peek();
+            this.top = this.top.next;
+
+        }
+        //Checking if any underflow or overflow occurs
+        public void IsEmpty()
+        {
+            while (this.top != null)
+            {
+                Peek();
+                Pop();
+            }
+        }
+
         internal void Display()
         {
             Node temp = this.top;
@@ -35,6 +67,6 @@ namespace StackAndQueue
                 temp = temp.next;
             }
         }
-    } 
-    
+    }
+
 }
