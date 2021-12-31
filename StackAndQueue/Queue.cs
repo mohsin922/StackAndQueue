@@ -27,6 +27,17 @@ namespace StackAndQueue
             }
             Console.WriteLine("{0} enqueued to Queue", node.data);
         }
+        //delete the element (FIFO)
+        public void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            Node temp = this.head;
+            this.head = this.head.next;
+            Console.WriteLine("\nItem deleted from Queue is {0}", temp.data);
+        }
         internal void Display()
         {
             Node temp = this.head;
