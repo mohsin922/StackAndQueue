@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VdNW0cuxKebboKCkLjZw2RQP02OYjFqyd8uF9Jk/Lsz8MLZX0AQEjMDuauX2fkeRv+O5Wz56yBymm68FdBsShw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MOHSIN ZAHOOR PEER\\Desktop\\StackAndQueue\\StackAndQueue\\StackAndQueue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MOHSIN ZAHOOR PEER\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
